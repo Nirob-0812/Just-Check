@@ -1,0 +1,554 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Passport form</title>
+    <meta name="viewport" content="width=device-width initial scale=1.0">
+</head>
+<body>
+  <br><br><br><br><br>
+    <table align="center">
+      <tr>
+        <td><h3><b>PASSPORT APPLICATION</b></h3></td>
+      </tr>
+    </table>
+    <table border="1" width=980px align="center">
+        <tr>
+           <form>
+            <td height="400px" width="490px" valign=top>
+              <table cellpadding="5">
+                <tr>
+                  <td><b>Form No:</b></td>
+                  <td>
+                    <input type="number" name="Serial" value="591201" readonly="" disabled="">
+                  </td>
+                </tr>
+              </table>
+                <h3><b> Passport Application Information</b></h3>
+              
+                 <table cellpadding="3">
+                    <tr>
+                        <td>
+                              Applying in:
+                     </td>
+                     <td>
+                        <select>
+                          <option>-SELECT-</option>
+                              <option name="country" value="bn">Bangladesh</option>
+                              <option name="country" value="bn">India</option><option name="country" value="bn">Nepal</option><option name="country" value="bn">Japan</option>
+                              <option name="country" value="bn">Pakistan</option><option name="country" value="bn">Myanmer</option>
+                                  
+                          </select>
+                    </td>
+                    </tr>
+                     <tr>
+                         <td>
+                              Application Type:
+                        </td>
+                      <td>
+                              <b>NEW APPLICATION</b>
+                          </td>
+                     </tr>
+                      <tr>
+                         <td>
+                              Passport Type:
+                          </td>
+                          <td>
+                              <select>
+                                  <option>-SELECT-</option>
+                                  <option name="Passport_type" value="ordinary">ORDINARY</option>
+                                  <option name="Passport_type" value="diplomatic">DIPLOMATIC</option><option name="Passport_type" value="official">OFFICIAL</option>
+                              </select>
+                          </td> 
+                      </tr>
+                      <tr>
+                         <td>
+                               Supporting Document:
+                          </td>
+                          <td>
+                              <select>
+                                  <option>-SELECT-</option>
+                                  <option name="Supporting Document:" value="go">GO</option><option name="Supporting Document:" value="noc">NOC</option>
+                    
+                              </select>
+                          </td> 
+                      </tr>
+                       <tr>
+                          <td>Delivery Type:</td>
+                           <td>
+                               <input type="radio" name="check">Regular<br>
+                               <input type="radio" name="check">Express
+                           </td>
+                       </tr>
+                  </table>
+                <table cellpadding="2">
+                    <tr>
+                          <h3><b>Personal Information</b></h3> 
+                    </tr>
+                    <tr>
+                        <td>Name of applicant:*</td>
+                        <td>
+                            <input type="text" name="own_name" placeholder="Applicant Name" maxlength="20" required="" autocomplete="" autofocus="on">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>First Part (Given Name):</td>
+                        <td>
+                            <input type="text" name="first_name" placeholder="First name" maxlength="20" required="" autocomplete="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Second Part (Surname):</td>
+                        <td>
+                            <input type="text" name="surname" placeholder="Surname" maxlength="20" required="" autocomplete="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Father's Name*</td>
+                        <td>
+                            <input type="text" name="father_name" placeholder="Father name" maxlength="20" required="" autocomplete="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Father's Nationality*</td>
+                         <td>
+                        <select>
+                          <option>-SELECT-</option>
+                              <option name="country" value="bn">Bangladesh</option>
+                              <option name="country" value="bn">India</option>
+                              <option name="country" value="bn">Nepal</option><option name="country" value="bn">Japan</option>
+                              <option name="country" value="bn">Pakistan</option>
+                              <option name="country" value="bn">Myanmer</option>
+                                  
+                          </select>
+                    </td>
+                    </tr>
+                    <tr>
+                        <td>Father's Profession*</td>
+                         <td>
+                        <select>
+                          <option>-SELECT-</option>
+                              <option name="profession" value="farmer">Farmer</option>
+                              <option name="profession" value="fisherman">Fisherman</option>
+                              <option name="profession" value="bachelor">Bachelor</option>
+                              <option name="profession" value="cooker">Cooker</option>
+                              <option name="profession" value="teacher">Teacher</option>
+                              <option name="profession" value="doctor">Doctor</option>
+                              <option name="profession" value="engineer">Engineer</option>
+                              <option name="profession" value="govt_employer">Govt Employer</option>
+                              
+                              
+                                  
+                          </select>
+                    </td>
+                    </tr>
+                    <tr>
+                        <td>Mother's Name*</td>
+                        <td>
+                            <input type="text" name="mother_name" placeholder="Mother name" maxlength="20" required="" autocomplete="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Mother's Nationality*</td>
+                         <td>
+                        <select>
+                          <option>-SELECT-</option>
+                              <option name="country" value="bn">Bangladesh</option>
+                              <option name="country" value="bn">India</option><option name="country" value="bn">Nepal</option><option name="country" value="bn">Japan</option>
+                              <option name="country" value="bn">Pakistan</option><option name="country" value="bn">Myanmer</option>
+                                  
+                          </select>
+                    </td>
+                    </tr>
+                    <tr>
+                        <td>Mother's Profession*</td>
+                        <td>
+                        <select>
+                          <option>-SELECT-</option>
+                              <option name="profession" value="farmer">Farmer</option>
+                              <option name="profession" value="fisherman">Fisherman</option>
+                              <option name="profession" value="bachelor">Bachelor</option>
+                              <option name="profession" value="housewife">House Wife</option>
+                              <option name="profession" value="cooker">Cooker</option>
+                              <option name="profession" value="teacher">Teacher</option>
+                              <option name="profession" value="doctor">Doctor</option>
+                              <option name="profession" value="engineer">Engineer</option>
+                              <option name="profession" value="govt_employer">Govt Employer</option>
+                          </select>
+                    </td>
+                    </tr>
+                    <tr>
+                        <td>Marital Status:*</td>
+                         <td>
+                        <select>
+                          <option>-SELECT-</option>
+                              <option name="marital_status" value="single">SINGLE</option>
+                               <option name="marital_status" value="married">MARRIED</option>
+                               <option name="marital_status" value="divorced"> DIVORCED</option>
+                                <option name="marital_status"
+                                value="widowed">WIDOWED</option>
+                          </select>
+                    </td>
+                    </tr>
+                    <tr>
+                        <td>Applicant's Profession:*</td>
+                        <td>
+                        <select>
+                          <option>-SELECT-</option>
+                              <option name="profession" value="farmer">Farmer</option>
+                              <option name="profession" value="fisherman">Fisherman</option>
+                              <option name="profession" value="bachelor">Bachelor</option>
+                              <option name="profession" value="housewife">House Wife</option>
+                              <option name="profession" value="cooker">Cooker</option>
+                              <option name="profession" value="teacher">Teacher</option>
+                              <option name="profession" value="doctor">Doctor</option>
+                              <option name="profession" value="engineer">Engineer</option>
+                              <option name="profession" value="govt_employer">Govt Employer</option>
+                          </select>
+                    </td>
+                    </tr>
+                    <tr>
+                        <td>Country of Birth:*</td>
+                         <td>
+                        <select>
+                          <option>-SELECT-</option>
+                              <option name="country" value="bn">Bangladesh</option>
+                              <option name="country" value="bn">India</option>
+                              <option name="country" value="bn">Nepal</option><option name="country" value="bn">Japan</option>
+                              <option name="country" value="bn">Pakistan</option>
+                              <option name="country" value="bn">Myanmer</option>
+                                  
+                          </select>
+                    </td>
+                    </tr>
+                    <tr>
+                        <td>Birth District:*</td>
+                         <td>
+                        <select>
+                          <option>-SELECT-</option>
+                              <option name="district" value="jamalpur">Jamalpur</option>
+                              <option name="district" value="Sherpur">Sherpur</option>
+                              <option name="district" value="tangail">Tangail</option>
+                              <option name="district" value="mymensingh">Mymensingh</option>
+                              <option name="district" value="shirajganj">Shirajganj</option>
+                              <option name="district" value="comilla">Comilla</option>
+                              <option name="district" value="Rajshahi">Rajshahi</option>
+                              <option name="district" value="sylhet">Sylhet</option>
+                              <option name="district" value="chittagonj">Chittagonj</option>
+                              <option name="district" value="Dhaka">Dhaka</option>
+                              <option name="district" value="Noakhali">Noakhali</option>
+                              <option name="district" value="barishal">Barishal</option>
+                              <option name="district" value="rangpur">Rangpur</option>
+                               
+                                  
+                          </select>
+                    </td>
+                    </tr>
+                </table>
+                <fieldset>
+                  <legend><h3><b>Comment Area</b></h3></legend>
+                  <table>
+                    <tr>
+                      <td><b>Comment:</b></td>
+                      <td height="200" width="490px" align="center">
+                       <textarea maxlength="100" placeholder="Not Mandatory, If You Want-you can write something..."></textarea>  
+                      </td>
+                    </tr>
+                  </table>
+                </fieldset>    
+            </td>
+            <td height="400px" width="490px" valign="top">
+               
+                  <table cellpadding="4">
+                    <tr>
+                        <td>Date of Birth:*</td>
+                        <td>
+                            <input type="text" name="birth_date" placeholder="Date-Month-Year" accept="charset" required="" autocomplete="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Gender:*</td>
+                        <td>
+                            <input type="radio" name="gender" value="male">Male<br>
+                            <input type="radio" name="gender" value="female">Female<br>
+                            <input type="radio" name="gender" value="others">Others<br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Birth ID No:*
+                        </td>
+                        <td>
+                            <input type="number"name="birth_id" placeholder="********" max="1000000000000" min="100" required=""
+                             autocomplete="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            National ID No:*
+                        </td>
+                        <td>
+                            <input type="number"name="birth_id" placeholder="********" min="100" max="1000000000000" required="" autocomplete="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Tax ID No:*
+                        </td>
+                        <td>
+                            <input type="number"name="birth_id" placeholder="*******" min="100" max="10000000000000" required="" 
+                            autocomplete="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Height:</td>
+                        <td>
+                           <input type="number"name="cm" placeholder="cm" min="1" max="60" required="" autocomplete=""> cm<br>
+                            <input type="number"name="inch" placeholder="inch" min="1" max="60" required="" autocomplete=""> inch<br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Religion:*</td>
+                        <td>
+                            <select>
+                                <option>-SELECT-</option>
+                                <option name="religion" value="buddh">BUDDHISM</option>
+                                <option name="religion" value="christan">CHRISTIANITY</option>
+                                <option name="religion" value="hindu">HINDUISM</option>
+                                <option name="religion" value="islam">ISLAM</option>
+                                <option name="religion" value="jainism">JAINISM</option>
+                                <option name="religion" value="judaism">JUDAISM</option>
+                                <option name="religion" value="others">OTHERS</option>
+                                <option name="religion" value="shik">SIKHISM</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Email:*
+                        </td>
+                        <td>
+                            <input type="email" name="email" placeholder="**********@gmail.com" maxlength="20" accept="email" required="" autocomplete="">
+                        </td>
+                    </tr>
+                  </table>
+               
+              
+                  <table cellpadding="3">
+                      <tr>
+                          <h3><b>Citizenship Information</b></h3>
+                      </tr>
+                      <tr>
+                          <td>
+                              Nationality:
+                          </td>
+                            <td>
+                             <select>
+                          <option>-SELECT-</option>
+                              <option name="country" value="bn">Bangladesh</option>
+                              <option name="country" value="bn">India</option><option name="country" value="bn">Nepal</option><option name="country" value="bn">Japan</option>
+                              <option name="country" value="bn">Pakistan</option><option name="country" value="bn">Myanmer</option>
+                                  
+                          </select>
+                        </td>
+                      </tr>
+                      <tr>
+                          <td>Citizenship Status:</td>
+                          <td>
+                              <select>
+                                  <option>-SELECT-</option>
+                                  <option name="citizen" value="birth">BIRTH</option>
+                                  <option name="citizen" value="parenage">PARENTAGE</option>
+                                  <option name="citizen" value="birth">MIGRATION</option>
+                                  <option name="citizen" value="naturalization">NATURALIZATION</option>
+                                  <option name="citizen" value="others">OTHERS</option>
+                              </select>
+                          </td>
+                      </tr>
+                      <tr>
+                          <td>Dual Citizenship:*</td>
+                          <td>
+                              <input type="radio" name="citizenship">Yes<br>
+                              <input type="radio" name="citizenship">No<br>
+                              
+                          </td>
+                      </tr>
+                  </table>
+               
+                  <table cellpadding="2">
+                      <tr>
+                         <h3><b>Present Address</b></h3>
+                      </tr>
+                      <tr>
+                          <td>Village/House:</td>
+                          <td>
+                              <input type="text" name="village/house" placeholder="Village/house" maxlength="20" required="" autocomplete=""> 
+                          </td>
+                      </tr>
+                      <tr>
+                          <td>Road/Block/Sector:</td>
+                          <td>
+                              <input type="text" name="Road/Block/Sector:" placeholder="Road/Block/Sector" maxlength="20" required="" autocomplete=""> 
+                          </td>
+                      </tr>
+                      <tr>
+                          <td>District:*</td>
+                          <td>
+                        <select>
+                          <option>-SELECT-</option>
+                              <option name="district" value="jamalpur">Jamalpur</option>
+                              <option name="district" value="Sherpur">Sherpur</option>
+                              <option name="district" value="tangail">Tangail</option>
+                              <option name="district" value="mymensingh">Mymensingh</option>
+                              <option name="district" value="shirajganj">Shirajganj</option>
+                              <option name="district" value="comilla">Comilla</option>
+                              <option name="district" value="Rajshahi">Rajshahi</option>
+                              <option name="district" value="sylhet">Sylhet</option>
+                              <option name="district" value="chittagonj">Chittagonj</option>
+                              <option name="district" value="Dhaka">Dhaka</option>
+                              <option name="district" value="Noakhali">Noakhali</option>
+                              <option name="district" value="barishal">Barishal</option>
+                              <option name="district" value="rangpur">Rangpur</option>
+                               
+                                  
+                          </select>
+                    </td>
+                      </tr>
+                      <tr>
+                          <td>
+                              Police Station:*
+                          </td>
+                         <td>
+                        <select>
+                          <option>-SELECT-</option>
+                              <option name="Police_station" value=" jamalpur">Jamalpur</option>
+                              <option name=" Police_station" value="Sherpur">Sherpur</option>
+                              <option name=" Police_station" value="tangail">Tangail</option>
+                              <option name=" Police_station" value="mymensingh">Mymensingh</option>
+                              <option name=" Police_station" value="shirajganj">Shirajganj</option>
+                              <option name=" Police_station" value="comilla">Comilla</option>
+                              <option name=" Police_station" value="Rajshahi">Rajshahi</option>
+                              <option name=" Police_station" value="sylhet">Sylhet</option>
+                              <option name=" Police_station" value="chittagonj">Chittagonj</option>
+                              <option name=" Police_station" value="Dhaka">Dhaka</option>
+                              <option name=" Police_station" value="Noakhali">Noakhali</option>
+                              <option name=" Police_station" value="barishal">Barishal</option>
+                              <option name=" Police_station" value="rangpur">Rangpur</option>
+                            </select>
+                          </td>
+                      </tr>
+                      <tr>
+                          <td>Post Office:*</td>
+                          <td>
+                              <select>
+                               <option>-SELECT-</option>
+                              <option name="Post Office" value=" jamalpur">Jamalpur</option>
+                              <option name="Post Office" value="Sherpur">Sherpur</option>
+                              <option name="Post Office" value="tangail">Tangail</option>
+                              <option name="Post Office" value="mymensingh">Mymensingh</option>
+                              <option name="Post Office" value="shirajganj">Shirajganj</option>
+                              <option name="Post Office" value="comilla">Comilla</option>
+                              <option name="Post Office" value="Rajshahi">Rajshahi</option>
+                              <option name="Post Office" value="sylhet">Sylhet</option>
+                              <option name="Post Office" value="chittagonj">Chittagonj</option>
+                              <option name="Post Office" value="Dhaka">Dhaka</option>
+                              <option name="Post Office" value="Noakhali">Noakhali</option>
+                              <option name="Post Office" value="barishal">Barishal</option>
+                              <option name="Post Office" value="rangpur">Rangpur</option>   
+                              </select>
+                          </td>
+                      </tr>
+                  </table>
+              
+                  <table cellpadding="2">
+                      <tr>
+                          <h3><b>Permanent Address</b></h3>
+                      </tr>
+                      <tr>
+                          <td>Village/House:</td>
+                          <td>
+                              <input type="text" name="village/house" placeholder="village/house" maxlength="20" required="" autocomplete=""> 
+                          </td>
+                      </tr>
+                      <tr>
+                          <td>Road/Block/Sector:</td>
+                          <td>
+                              <input type="text" name="Road/Block/Sector:" placeholder="Road/Block/Sector" maxlength="20" required="" autocomplete=""> 
+                          </td>
+                      </tr>
+                      <tr>
+                          <td>District:*</td>
+                          <td>
+                        <select>
+                          <option>-SELECT-</option>
+                              <option name="district" value="jamalpur">Jamalpur</option>
+                              <option name="district" value="Sherpur">Sherpur</option>
+                              <option name="district" value="tangail">Tangail</option>
+                              <option name="district" value="mymensingh">Mymensingh</option>
+                              <option name="district" value="shirajganj">Shirajganj</option>
+                              <option name="district" value="comilla">Comilla</option>
+                              <option name="district" value="Rajshahi">Rajshahi</option>
+                              <option name="district" value="sylhet">Sylhet</option>
+                              <option name="district" value="chittagonj">Chittagonj</option>
+                              <option name="district" value="Dhaka">Dhaka</option>
+                              <option name="district" value="Noakhali">Noakhali</option>
+                              <option name="district" value="barishal">Barishal</option>
+                              <option name="district" value="rangpur">Rangpur</option>
+                               
+                                  
+                          </select>
+                    </td>
+                      </tr>
+                      <tr>
+                          <td>
+                              Police Station:*
+                          </td>
+                         <td>
+                        <select>
+                          <option>-SELECT-</option>
+                              <option name="Police_station" value=" jamalpur">Jamalpur</option>
+                              <option name=" Police_station" value="Sherpur">Sherpur</option>
+                              <option name=" Police_station" value="tangail">Tangail</option>
+                              <option name=" Police_station" value="mymensingh">Mymensingh</option>
+                              <option name=" Police_station" value="shirajganj">Shirajganj</option>
+                              <option name=" Police_station" value="comilla">Comilla</option>
+                              <option name=" Police_station" value="Rajshahi">Rajshahi</option>
+                              <option name=" Police_station" value="sylhet">Sylhet</option>
+                              <option name=" Police_station" value="chittagonj">Chittagonj</option>
+                              <option name=" Police_station" value="Dhaka">Dhaka</option>
+                              <option name=" Police_station" value="Noakhali">Noakhali</option>
+                              <option name=" Police_station" value="barishal">Barishal</option>
+                              <option name=" Police_station" value="rangpur">Rangpur</option>
+                            </select>
+                          </td>
+                      </tr>
+                      <tr>
+                          <td>Post Office:*</td>
+                          <td>
+                              <select>
+                               <option>-SELECT-</option>
+                              <option name=" Post Office" value=" jamalpur">Jamalpur</option>
+                              <option name="  Post Office" value="Sherpur">Sherpur</option>
+                              <option name="Post Office" value="tangail">Tangail</option>
+                              <option name="  Post Office" value="mymensingh">Mymensingh</option>
+                              <option name="  Post Office" value="shirajganj">Shirajganj</option>
+                              <option name="  Post Office" value="comilla">Comilla</option>
+                              <option name="  Post Office" value="Rajshahi">Rajshahi</option>
+                              <option name="  Post Office" value="sylhet">Sylhet</option>
+                              <option name="  Post Office" value="chittagonj">Chittagonj</option>
+                              <option name="  Post Office" value="Dhaka">Dhaka</option>
+                              <option name="Post Office" value="Noakhali">Noakhali</option>
+                              <option name="Post Office" value="barishal">Barishal</option>
+                              <option name="Post Office" value="rangpur">Rangpur</option>   
+                              </select>
+                          </td>
+                      </tr>
+                  </table><br><br>
+                     <input type="submit"value="Submit Data">
+              
+               </td> 
+            </form>
+        </tr>
+    </table>
+    <br><br><br><br><br><br><br>
+</body>
+</html>
